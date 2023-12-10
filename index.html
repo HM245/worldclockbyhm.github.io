@@ -12,11 +12,14 @@
 
     <title>H.M. World Clock</title>
     <style>
-        *{margin: 0;
-padding: 0;}
-.container{
-    text-align: center;
-}
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
     </style>
     <script>
         let a;
@@ -24,13 +27,13 @@ padding: 0;}
         let time;
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         setInterval(() => {
-            a = new Date(); 
+            a = new Date();
             date = a.toLocaleDateString(undefined, options);
             time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
             document.getElementById('time').innerHTML = time + "<br>on " + date;
         }, 1000);
     </script>
-        
+
 </head>
 
 <body>
@@ -56,9 +59,14 @@ padding: 0;}
                             Dropdown
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="https://www.youtube.com/channel/UC06-LJXzUAguB7a_xxHqf3Q">My Youtube Channel</a></li>
-                            <li><a class="dropdown-item" href="https://www.instagram.com/hm_yt_creator/">My insta</a></li>
-                            <li><a class="dropdown-item" href="https://www.facebook.com/HM_YT_Creator-103740255613973">My Facebook Page</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.youtube.com/channel/UC06-LJXzUAguB7a_xxHqf3Q">My Youtube
+                                    Channel</a></li>
+                            <li><a class="dropdown-item" href="https://www.instagram.com/hm_yt_creator/">My insta</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.facebook.com/HM_YT_Creator-103740255613973">My Facebook Page</a>
+                            </li>
                         </ul>
                     </li>
                     <!-- <li class="nav-item">
@@ -80,6 +88,15 @@ padding: 0;}
                 <p class="lead">यहाँ पर हम आपको समय से अवगत कराएगे |</p>
             </div>
         </div>
+    </div>
+    <br>
+    <br>
+    <div class="box my-4">
+        <h1 align="center"><i><u>Edistrict Extension</u></i></h1>
+        <p align="center" style="font-weight: bolder; font-size: x-large;"><b><i>This extension is a simple chrome extension made for edistrict website througt this extension you can access
+            the links easily<br>this extension will make your browser work just like internet explorer to download the
+            extension zip file click on the image below<br>👇</i></b></p>
+            <a href=""><img src="" alt=""></a>
     </div>
 
 
